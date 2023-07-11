@@ -1,0 +1,9 @@
+/.vscode
+/APIGNews
+.env
+
+__pycache__/
+*/__pycache__/
+*/*/__init__.py
+
+.pytest_cache/
