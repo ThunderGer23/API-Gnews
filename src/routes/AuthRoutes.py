@@ -20,8 +20,6 @@ def login():
     the keys 'message' and 'success', both having values related to
     """
     try:
-        csrf_token = request.headers.get('X-CSRFToken')
-        print(csrf_token)
         username = request.json['username']
         password = request.json['password']
 
