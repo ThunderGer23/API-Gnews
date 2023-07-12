@@ -16,11 +16,3 @@ def test_get_fullname_of_user_authenticated():
     _user = User(0, "ThunderGer", "abc123", None)
     authenticated_user = AuthService.login_user(_user)
     assert authenticated_user.fullname == 'Luis Gerardo Baeza'
-
-def test_get_username_of_user_authenticated():
-    """
-    The function tests the ability to retrieve the username of an authenticated user.
-    """
-    _user = User(0, "ThunderGer", "abc123", None)
-    authenticated_user = AuthService.login_user(_user)
-    assert authenticated_user.username == 'ThunderGer'

@@ -1,0 +1,333 @@
+2023-07-11 18:07:11 | ERROR | port should be of type int
+2023-07-11 18:07:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:07:11 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:07:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:07:12 | ERROR | port should be of type int
+2023-07-11 18:07:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:07:12 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:07:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:07:12 | ERROR | port should be of type int
+2023-07-11 18:07:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:07:12 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:07:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:08:10 | ERROR | port should be of type int
+2023-07-11 18:08:10 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:08:10 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:08:10 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:08:11 | ERROR | port should be of type int
+2023-07-11 18:08:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:08:11 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:08:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:08:11 | ERROR | port should be of type int
+2023-07-11 18:08:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:08:11 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:08:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:10:26 | ERROR | port should be of type int
+2023-07-11 18:10:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:10:26 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:10:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:10:26 | ERROR | port should be of type int
+2023-07-11 18:10:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:10:26 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:10:26 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:11:38 | ERROR | port should be of type int
+2023-07-11 18:11:38 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:11:38 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:11:38 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 18, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:11:38 | ERROR | port should be of type int
+2023-07-11 18:11:38 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:11:38 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:11:38 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 18, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:12:12 | ERROR | port should be of type int
+2023-07-11 18:12:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:12:12 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:12:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:12:12 | ERROR | port should be of type int
+2023-07-11 18:12:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:12:12 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:12:12 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:13:03 | ERROR | port should be of type int
+2023-07-11 18:13:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:13:03 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:13:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:13:03 | ERROR | port should be of type int
+2023-07-11 18:13:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "c:\users\cuand\documents\pythonpruebas\api-gnews\apignews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:13:03 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:13:03 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:14:11 | ERROR | port should be of type int
+2023-07-11 18:14:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:14:11 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:14:11 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:14:15 | ERROR | port should be of type int
+2023-07-11 18:14:15 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:14:15 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:14:15 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:15:05 | ERROR | port should be of type int
+2023-07-11 18:15:05 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:15:05 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:15:05 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:15:06 | ERROR | port should be of type int
+2023-07-11 18:15:06 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 25, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 294, in __init__
+    raise ValueError("port should be of type int")
+ValueError: port should be of type int
+
+2023-07-11 18:15:06 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:15:06 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:19:00 | ERROR | (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+2023-07-11 18:19:00 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 644, in connect
+    sock = socket.create_connection(
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 20, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 711, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+
+2023-07-11 18:19:00 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:19:00 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:20:39 | ERROR | (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+2023-07-11 18:20:39 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 644, in connect
+    sock = socket.create_connection(
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 20, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 711, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+
+2023-07-11 18:20:39 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:20:39 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
+2023-07-11 18:21:10 | ERROR | (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+2023-07-11 18:21:10 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 644, in connect
+    sock = socket.create_connection(
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 843, in create_connection
+    raise err
+  File "C:\Users\cuand\AppData\Local\Programs\Python\Python39\lib\socket.py", line 831, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\database\db.py", line 21, in get_connection
+    return pymysql.connect(
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 358, in __init__
+    self.connect()
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\APIGNews\lib\site-packages\pymysql\connections.py", line 711, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'containers-us-west-133.railway.app' (timed out)")
+
+2023-07-11 18:21:10 | ERROR | 'NoneType' object has no attribute 'cursor'
+2023-07-11 18:21:10 | ERROR | Traceback (most recent call last):
+  File "C:\Users\cuand\Documents\PythonPruebas\API-Gnews\src\services\AuthService.py", line 27, in login_user
+    with connection.cursor() as cursor:
+AttributeError: 'NoneType' object has no attribute 'cursor'
+
