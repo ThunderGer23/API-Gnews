@@ -9,7 +9,6 @@ from src.services.AuthService import AuthService
 
 main = Blueprint('auth_blueprint', __name__)
 
-
 @main.route('/', methods=['POST'])
 def login():
     """
@@ -21,6 +20,8 @@ def login():
     the keys 'message' and 'success', both having values related to
     """
     try:
+        csrf_token = request.headers.get('X-CSRFToken')
+        print(csrf_token)
         username = request.json['username']
         password = request.json['password']
 

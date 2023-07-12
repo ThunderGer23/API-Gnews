@@ -3,7 +3,7 @@ import urllib.request
 import json
 
 from src.utils.Logger import Logger
-
+from decouple import config
 
 # The GNewsService class is a Python class that represents a service for retrieving news articles from
 # the GNews API.
@@ -21,7 +21,7 @@ class GNewsService():
         :return: The function `get_articles` returns a list of articles.
         """
         try:
-            apikey='16f3b09d70a4e1aca16a7c1ceca73bf4'
+            apikey = config('APIKEY')
             url = f'https://gnews.io/api/v4/search?q=example&apikey={apikey}'
 
             articles = []

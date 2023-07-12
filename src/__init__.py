@@ -1,8 +1,10 @@
 from flask import Flask
-
+from flask_cors import CORS
 from .routes import AuthRoutes, GNewsRoutes
 
 app = Flask(__name__)
+
+CORS(app, origins='http://localhost:5000', methods=['GET', 'POST'], allow_headers=['Content-Type'])
 
 def init_app(config):
     """
