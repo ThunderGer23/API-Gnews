@@ -40,6 +40,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#test">Test</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -125,8 +126,21 @@ _This command will start the Flask development server, and the API will be acces
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
+<!-- Test EXAMPLES -->
+## Test
 
+To run tests using pytest, follow these steps:
 
+1. Open a terminal or command prompt and navigate to the root directory of your project where the tests are located.
+2. Make sure you have `pytest` installed in your Python environment. If not, you can install it by running `pip install pytest`.
+3. Run the following command to execute all the tests in the project:
+   ```sh
+    pytest
+5. By default, `pytest` will automatically discover and run all the test files with names starting with `test_` or ending with `_test.py`.
+
+By running `pytest`, you can easily execute your test suite and verify the functionality of your code. It helps in ensuring that your application behaves as expected and maintains its desired quality.
+
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 <!-- USAGE EXAMPLES -->
 ## Usage
 
