@@ -132,13 +132,13 @@ _This command will start the Flask development server, and the API will be acces
 
 Discover the various use cases and scenarios where you can leverage the News API to its fullest potential. From web and mobile applications to data analysis and automation, the API offers diverse possibilities for integrating news content into your projects. Explore the examples and find inspiration to incorporate the API into your next development.
 
-![Image Description: Authenticated User with Token Return:](/images/CapturaAuth.png)
+![Image Description: Authenticated User with Token Return:](/images/CapturaAuth.PNG)
 
 **Image Description: Authenticated User with Token Return:**
 
 The image showcases the response from the API after successfully authenticating a user. The user submits a request with their login credentials and receives an access token in response. The token is an encrypted string that contains information about the user's identity and active session. By including the token with each subsequent request, the user can access protected resources and perform authorized actions within the application.
 
-![Image Description: Articles Returned by the API:](/images/CapturaArticles.png)
+![Image Description: Articles Returned by the API:](/images/CapturaArticles.PNG)
 
 **Image Description: Articles Returned by the API:**
 
