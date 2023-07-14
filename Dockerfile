@@ -22,25 +22,11 @@ WORKDIR /app
 # Instalar las dependencias del proyecto (si tienes un archivo requirements.txt)
 RUN pip3 install -r requirements.txt
 
-# Configurar la contraseña del usuario root de MySQL
-RUN service mysql start && \
-    mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ThunderGer'; FLUSH PRIVILEGES;" && \
-    service mysql stop
-
-# # Configurar las variables de entorno para la conexión a la base de datos (si es necesario)
-# ENV DB_HOST=localhost
-# ENV DB_USER=root
-# ENV DB_PASSWORD=ThunderGer
-# ENV DB_NAME=APIGNews
-
-# Copiar el archivo .sql al contenedor
-COPY database.sql /docker-entrypoint-initdb.d/database.sql
+COPY database.sql /app/database.sql
+RUN service mysql start && mysql -u root < /app/database.sql
 
 # Exponer el puerto 5000
-# EXPOSE 5000
-
-# Iniciar el servicio de MySQL
-RUN service mysql start && mysql < /docker-entrypoint-initdb.d/database.sql
+# EXPOSE 500
 
 # Ejecutar el script index.py
-CMD service mysql start && mysql < /docker-entrypoint-initdb.d/database.sql && python3 index.py
+CMD python3 index.py
