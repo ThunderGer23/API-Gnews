@@ -102,26 +102,34 @@ In case you have Linux you can use
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [APIGNews](https://github.com/ThunderGer23/API-Gnews)
-2. Create a .env file in the root of the project and configure the environment variables for the database connection, for example:
-   
-   ```
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=mysecretpassword
-    DB_NAME=api_news
-    ```
+2. Clone the repository:
 
-3. Run the following command to build the Docker image:
+   ```shell
+   git clone <repository_url>
+3. Create a virtual environment and activate it:
    
    ```sh
-    docker compose up
-4. Or create your a virtual environment for the project:
-* Run `python3 -m venv venv` to create the virtual environment.
-* Run `source venv/bin/activate` to activate the virtual environment.
-* Run `pip install -r requirements.txt` to install all the necessary dependencies.
-5. Running the API with the following command
+    python3 -m venv venv
+    source venv/bin/activate
+4. Install the required packages:
    ```sh
-    python index.py
+    pip install -r requirements.txt
+
+5. Set up the database:
+
+* Execute the SQL script provided (database.sql) to create the necessary database tables and seed initial data.
+6. Configure the environment variables:
+
+* Modify the .env file and update the following variables according to your database setup:
+   ```sh
+    MYSQL_HOST=localhost
+    MYSQL_USER=root
+    MYSQL_PASSWORD=ThunderGer
+    MYSQL_DB=apignews
+
+7. Start the Flask server:
+   ```sh
+    python3 index.py
 _This command will start the Flask development server, and the API will be accessible at http://localhost:5000._
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>
