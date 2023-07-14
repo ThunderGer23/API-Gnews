@@ -27,17 +27,17 @@ RUN service mysql start && \
     mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ThunderGer'; FLUSH PRIVILEGES;" && \
     service mysql stop
 
-# Configurar las variables de entorno para la conexión a la base de datos (si es necesario)
-ENV DB_HOST=localhost
-ENV DB_USER=root
-ENV DB_PASSWORD=ThunderGer
-ENV DB_NAME=APIGNews
+# # Configurar las variables de entorno para la conexión a la base de datos (si es necesario)
+# ENV DB_HOST=localhost
+# ENV DB_USER=root
+# ENV DB_PASSWORD=ThunderGer
+# ENV DB_NAME=APIGNews
 
 # Copiar el archivo .sql al contenedor
 COPY database.sql /docker-entrypoint-initdb.d/database.sql
 
 # Exponer el puerto 5000
-EXPOSE 5000
+# EXPOSE 5000
 
 # Iniciar el servicio de MySQL
 RUN service mysql start && mysql < /docker-entrypoint-initdb.d/database.sql
